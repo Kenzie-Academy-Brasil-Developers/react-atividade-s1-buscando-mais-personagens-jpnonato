@@ -1,0 +1,74 @@
+.pic{
+    height: 85px;
+    width: 85px;
+    object-fit: cover;
+}
+
+
+.alive{
+    height: 158px;
+    width: 116px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin:10px;
+    background-color: rgb(43, 170, 43);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dead{
+    height: 158px;
+    width: 116px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin:10px;
+    background-color: rgb(241, 70, 47);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label_name{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.label_atr{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 700px) {
+    .alive {
+        height: 250px;
+        width: 185px;
+    }
+
+    .dead {
+        height: 250px;
+        width: 185px;
+    }
+      
+    .pic {
+        height: 130px;
+        width: 130px;
+    }
+    
+    .label_atr {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+      
+    .label_name {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+}
+
