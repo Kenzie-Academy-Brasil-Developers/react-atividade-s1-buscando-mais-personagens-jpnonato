@@ -20,7 +20,7 @@ function App() {
   }
 
   const diminuir = () => {
-    if( next >= 1 ){
+    if( next > 1 ){
     setNext( next - 1)
     }
   }
